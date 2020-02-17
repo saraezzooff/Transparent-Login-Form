@@ -1,0 +1,101 @@
+/*@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*/
+
+
+
+/* global */
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/max-andrey.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+        
+    
+}
+
+body i
+{
+    font-family:'FontAwesome'!important;
+}
+
+/* main container for all the login form */
+.login-box
+{
+    /*background-color: aqua;*/
+
+   /* text-align: center;*/
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*transform: translateX(-50%);  making the box in the middle of page */ 
+    color: #fff;
+}
+
+/* the header login for the form */
+
+.login-box h1
+{
+    float: left;
+    font-size: 40px; 
+    /*text-align: center;*/
+    margin-bottom: 50px;
+    border-bottom: 6px solid #2ce68a ;
+    padding: 13px 0px;
+}
+
+
+/* the container for input items */
+.input-container
+{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 1px solid #2ce68a ;    
+}
+
+/* the icon of the input*/
+.input-container i
+{
+    width: 26px;
+    float: left;
+    text-align: center;
+    
+}
+
+/* the input of data */
+.input-container input 
+{
+    /* removing styling of text box */
+border: none;
+outline: none;
+background: none;
+    /*------------------------------*/
+color: #d6d6d6;
+opacity: 0.9; 
+width: 80%;
+font-size: 20px;
+margin: 0px 10px;
+
+}
+
+/* the sign-in button */
+.btn
+{
+    width: 100%;
+    background: none;
+    border: 2px solid #2ce68a;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 0;
+    margin: 12px 0px;
+}
+
